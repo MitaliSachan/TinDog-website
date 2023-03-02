@@ -1,0 +1,156 @@
+body{
+  font-family:"Montserrat";
+  text-align: center;
+}
+.custom{
+  font-family:"Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  text-shadow: -1px 1px 0 #000,
+  1px 1px 0 #000,
+ 1px -1px 0 #000,
+-1px -1px 0 #000;
+}
+.tags{
+  font-size:1.5rem;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family:"Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+  
+}
+p{
+  font-size:1.1rem ;
+  color: #8f8f8f;
+  padding: 0 10%;
+}
+.container-fluid{
+  padding: 0 15%;
+}
+.navbar-brand{
+  font-size:1.7rem;
+  padding-left:3%;
+  font-family:"Ubuntu";
+}
+.navbar-nav{
+  font-size:1.2rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+/* download buttons */
+.download-button{
+--bs-btn-border-width:1.5px;
+margin:5% 2% 5% 0;
+}
+.btn-group-lg>.btn, .btn-lg {
+    --bs-btn-padding-y: 0.2rem;
+    --bs-btn-border-radius: 0.4rem;
+}
+
+/* title image */
+#title{
+  background-color: #FED049;
+  text-align: left;
+  z-index: -1;
+}
+.title-image{
+  width: 20%;
+  height:85%;
+  transform: rotate(25deg);
+  position:absolute;
+  right:30%;
+}
+.img{
+  color:#e6c04d;
+  font-size:3rem;
+  margin-bottom: 1rem;
+}
+.img:hover{
+  color:#FED049;
+}
+.at{
+  color:#fff;
+}
+
+/*feature section*/
+#features{
+  background-color: #fff;
+  position:relative;
+  z-index:1;
+}
+.feature-box{
+  padding:3%;
+}
+#testimonials{
+  background-color: #d5b964;
+}
+.cp{
+  padding:7% 15% ;
+}
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #d5b964;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/*pricing section*/
+
+#pricing{
+  padding: 100px;
+}
+.pri-col{
+  padding: 3% 2%;
+}
+.fa-paw{
+  font-size: 89px;
+  color:black;
+  padding-left:3%;
+  padding-top: 3%;
+  transform: rotate(40deg);
+}
+.paw-l{
+  font-size:122px;
+  color:black;
+  transform: rotate(-30deg);
+  padding-top:10%;
+  padding-left:102%;
+
+}
+#cta{
+  background-color: #FED049;
+}
+#footer{
+  padding-top:4%;
+}
+.sc{
+  padding:1% 1%;
+}
+@media (max-width:1028px){
+  .custom{
+    text-align: center;
+  }
+  .paw-l{
+    font-size:122px;
+    color:black;
+    transform: rotate(-30deg);
+    padding-top:10%;
+    padding-left:80%;
+  }
+  .title-image{
+    width: 65%;
+    height:90%;
+    transform: rotate(0);
+    position:static;
+
+}
+} 
